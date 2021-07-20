@@ -16,11 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3s-CK-l27">
-                                <rect key="frame" x="186" y="296" width="42" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1_gkqnQ0Tw_GxR0WYeKRTErw" translatesAutoresizingMaskIntoConstraints="NO" id="vUb-06-sbj">
+                                <rect key="frame" x="67" y="172" width="280" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1_gkqnQ0Tw_GxR0WYeKRTErw-1" translatesAutoresizingMaskIntoConstraints="NO" id="elw-ff-BMS">
+                                <rect key="frame" x="73" y="438" width="269" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3s-CK-l27">
+                                <rect key="frame" x="67" y="364" width="269" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Girl Boss Energy">
+                                        <attributes>
+                                            <font key="NSFont" size="25" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="💞✨👩🏻‍💻">
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".AppleColorEmojiUI"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -30,10 +50,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="81"/>
+            <point key="canvasLocation" x="137.68115942028987" y="80.357142857142847"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HE1-WM-hQE">
+            <objects>
+                <viewController id="03b-eQ-jn3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Ks-eb-7YW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="3UL-rC-WO5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s3E-C2-iMq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834" y="85"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1_gkqnQ0Tw_GxR0WYeKRTErw" width="2880" height="1800"/>
+        <image name="1_gkqnQ0Tw_GxR0WYeKRTErw-1" width="3200" height="1665"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
